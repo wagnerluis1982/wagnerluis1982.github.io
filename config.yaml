@@ -1,0 +1,10 @@
+baseURL: http://wagnermacedo.com/
+title: Wagner Macedo
+theme: PaperMod
+
+defaultContentLanguage: en
+languages:
+  en:
+    weight: 1
+  pt:
+    weight: 2
