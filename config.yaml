@@ -3,8 +3,11 @@ title: Wagner Macedo
 theme: PaperMod
 
 defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
 languages:
   en:
+    languageName: English
     weight: 1
   pt:
+    languageName: Português
     weight: 2
