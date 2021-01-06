@@ -2,6 +2,9 @@ baseURL: http://wagnermacedo.com/
 title: Wagner Macedo
 theme: PaperMod
 
+params:
+  author: Wagner Macedo
+
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
 languages:
