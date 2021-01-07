@@ -4,6 +4,8 @@ theme: PaperMod
 
 params:
   author: Wagner Macedo
+  showReadingTime: true
+  showShareButtons: true
   socialIcons:
     - name: github
       url: https://github.com/wagnerluis1982
@@ -24,6 +26,7 @@ languages:
   pt:
     languageName: Português
     weight: 2
+    dateFormat: "02.01.2006"
     homeInfoParams:
       title: Bem-vindo ao meu blog!
       content: "Eu escrevo para mim, principalmente sobre programação, na esperança de ser útil para todos -- incluindo eu mesmo 😊"
