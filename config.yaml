@@ -4,6 +4,13 @@ theme: PaperMod
 
 params:
   author: Wagner Macedo
+  socialIcons:
+    - name: github
+      url: https://github.com/wagnerluis1982
+    - name: linkedin
+      url: https://www.linkedin.com/in/wagnermacedo/
+    - name: telegram
+      url: https://t.me/wagnermacedo
 
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
@@ -11,6 +18,12 @@ languages:
   en:
     languageName: English
     weight: 1
+    homeInfoParams:
+      title: Welcome to my blog!
+      content: "I write for myself, mostly about programming, in the hope of being useful for everybody -- including myself 😊"
   pt:
     languageName: Português
     weight: 2
+    homeInfoParams:
+      title: Bem-vindo ao meu blog!
+      content: "Eu escrevo para mim, principalmente sobre programação, na esperança de ser útil para todos -- incluindo eu mesmo 😊"
