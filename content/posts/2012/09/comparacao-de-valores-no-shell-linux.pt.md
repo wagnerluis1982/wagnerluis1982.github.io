@@ -4,6 +4,9 @@ date: 2012-09-22T19:29:00.000-03:00
 draft: false
 aliases: [ "/2012/09/comparacao-de-valores-no-shell-linux.html" ]
 tags : [linux, bash, shell]
+
+ShowToc: true
+TocOpen: true
 ---
 
 Nesse meu primeiro texto, além do post inicial falando sobre mim, eu estou tentando voltar no tempo, alguns anos atrás, quando eu tentava aprender a programar em shell e me confundia com as tantas formas de realizar comparações no shell, a maioria utilizando comandos externos como grep, awk e sed, entre outros. Aqui eu só vou abordar as formas embutidas, que em geral tem maior desempenho, para comparações de variáveis. Nesse eu não vou abordar estruturas condicionais ou loops, assim espera-se que o leitor já tenha um entendimento sobre (pelo menos saiba o que é um `if`). E ainda, para ficar mais claro, o shell aqui usado é o bash, o padrão dos sistemas Linux.
