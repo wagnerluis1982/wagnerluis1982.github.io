@@ -152,13 +152,13 @@ fi
 >
 > You are not required to enclose the string between quotes 😀
 
-I believe the definitive feature of this command is to enable you to compare strings by using a regular expression. For that, you must use the `=~`. In the left side of the expression, you write the string to be tested, to the right you put the regular expression, as shown in the example below.
+I believe the definitive feature of this command is to enable you to compare strings by using a regular expression. For that, you must use the `=~` operator. In the left side of the expression, you write the string to be tested, to the right you place the regular expression, as shown in the example below.
 
 ```bash
 text='Around the rugged rocks the ragged rascal ran'
 
 # following expression evaluates to true, because it is looking for
-# the word "rocks" in the middle of the string and "ran" at the end
+# the word "rocks" in the middle of the $text and "ran" at the end
 if [[ $text =~ ^.*rocks.*ran$ ]]; then
   ...
 fi
@@ -169,4 +169,6 @@ Wrapping up
 
 Three main forms of comparison were shown, each with advantages and disadvantages. Which to use is up to you need and what you need in your scripts. However, it is always important to note that this text is, in no way, exhaustive regarding to all the options and possibilities the shell offers. Indeed, that was not the purpose, but to present a general overview of each one in order to be able to serve as a learning experience for those who are starting in the shell. Also, it serves as a reference to myself 😎
 
-I hope you have liked it, leave comments, may be doubts, compliments or criticisms. Take care, I hope to see you soon!
+I hope you have liked it, leave comments, may be doubts, compliments or criticisms.
+
+Take care, I hope to see you soon!
