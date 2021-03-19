@@ -109,7 +109,7 @@ fi
 > [ -n "$name" ] && ( [ $value -gt 1000 ] || [ $value -lt 500 ] )
 > ```
 
-At this point, almost half of the command `test` was covered. In a future text I intend to talk more about the command, with more details, more examples and with the the parameters to check file information.
+At this point, almost half of the command `test` was covered. In a future text I intend to talk more about `test`, with more details and more examples.
 
 Arithmetical comparison
 -----------------------
@@ -155,7 +155,7 @@ fi
 >
 > You are not required to enclose the string between quotes 😀
 
-I believe the definitive feature of this command is to enable you to compare strings by using a regular expression. For that, you must use the `=~` operator. In the left side of the expression, you write the string to be tested, to the right you place the regular expression, as shown in the example below.
+I believe the greatest feature of the double brackets operator is to enable you to compare strings by using a regular expression. When coming to that, you must use the `=~` operator. In the left side of the operator, you write the string to be tested, to the right you add the regular expression, as shown in the example below.
 
 ```bash
 text='Around the rugged rocks the ragged rascal ran'
@@ -170,7 +170,9 @@ fi
 Wrapping up
 -----------
 
-Three main forms of comparison were shown, each with advantages and disadvantages. Which to use is up to you need and what you need in your scripts. However, it is always important to note that this text is, in no way, exhaustive regarding to all the options and possibilities the shell offers. Indeed, that was not the purpose, but to present a general overview of each one in order to be able to serve as a learning experience for those who are starting in the shell. Also, it serves as a reference to myself 😎
+Three main forms of comparison were shown, each with advantages and disadvantages. Which to use is up to you and what you need in your scripts. However, it is always important to note that this text is, in no way, exhaustive regarding to all the options and possibilities the shell offers.
+
+Indeed, that was not the purpose, but to present a general overview of each one in order to be able to serve as a learning experience for those who are starting in the shell. Also, it serves as a reference to myself 😎
 
 I hope you have liked it, leave comments, may be doubts, compliments or criticisms.
 
