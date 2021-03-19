@@ -1,11 +1,13 @@
 baseURL: https://www.wagnermacedo.com/
 title: Wagner Macedo
 theme: PaperMod
+disqusShortname: wagnermacedo-com
 
 params:
   author: Wagner Macedo
   showReadingTime: true
   showShareButtons: true
+  comments: true
   socialIcons:
     - name: github
       url: https://github.com/wagnerluis1982
