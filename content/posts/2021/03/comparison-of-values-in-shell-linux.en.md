@@ -3,13 +3,16 @@ title: 'Comparison of values in Shell Linux'
 date: 2021-03-19T14:40:47+01:00
 draft: false
 tags : [linux, bash, shell]
+summary: |
+  Back in time when I was trying to learn shell, I got confused with the many forms to perform comparison of values.
+  Three main comparison methods is shown here, each with advantages and disadvantages.
 translationKey: 'comparison-of-values-in-shell-linux'
 
 ShowToc: true
 TocOpen: true
 ---
 
-In this first post, I am revisiting an old post I wrote in Portuguese. I am trying to go back in time, years ago, when I was trying to learn how to program in shell and got confused with so many forms to perform comparisons, most of that by using external commands such as `grep`, `awk` and `sed`, among others.
+In this first post, I am revisiting an old post I wrote in Portuguese. I am trying to go back in time, years ago, when I was trying to learn how to program in shell, I got confused with the many offered forms to perform comparison of values, most of that by using external commands such as `grep`, `awk` and `sed`, among others.
 
 Here I am going to concentrate in the embedded comparison methods, which in general, are more used for variables comparison. I am not going to talk about conditionals or loops, so I expect the reader has previous understanding about the subject (at least to know how the `if` behaves). To be clear, the shell where the commands were tested is **bash**, the default in Linux systems.
 
