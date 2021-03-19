@@ -3,6 +3,7 @@ title: 'Comparison of values in Shell Linux'
 date: 2021-03-19T14:40:47+01:00
 draft: false
 tags : [linux, bash, shell]
+translationKey: 'comparison-of-values-in-shell-linux'
 
 ShowToc: true
 TocOpen: true

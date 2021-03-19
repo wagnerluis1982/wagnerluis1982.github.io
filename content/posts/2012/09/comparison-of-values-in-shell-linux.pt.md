@@ -4,6 +4,7 @@ date: 2012-09-22T19:29:00.000-03:00
 draft: false
 aliases: [ "/2012/09/comparacao-de-valores-no-shell-linux.html" ]
 tags : [linux, bash, shell]
+translationKey: 'comparison-of-values-in-shell-linux'
 
 ShowToc: true
 TocOpen: true
