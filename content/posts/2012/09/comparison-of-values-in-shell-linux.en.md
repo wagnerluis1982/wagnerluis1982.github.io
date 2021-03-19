@@ -8,9 +8,9 @@ ShowToc: true
 TocOpen: true
 ---
 
-In this first post, I am revisiting an old post I wrote in Portuguese. I am trying to go back in time, years ago, when I was trying to learn how to program in shell and got confused with so many forms to perform comparisons in the shell, most of that by using external commands such as `grep`, `awk` and `sed`, among others.
+In this first post, I am revisiting an old post I wrote in Portuguese. I am trying to go back in time, years ago, when I was trying to learn how to program in shell and got confused with so many forms to perform comparisons, most of that by using external commands such as `grep`, `awk` and `sed`, among others.
 
-Here I am going to concentrate in the embedded comparison methods, which in general, are more performing for variables comparison. I am not going to talk about conditionals or loops, so I expect the reader has previous understanding about the subject (at least to know how the `if` behaves). To be clear, the shell where the commands were tested is **bash**, the default in Linux systems.
+Here I am going to concentrate in the embedded comparison methods, which in general, are more used for variables comparison. I am not going to talk about conditionals or loops, so I expect the reader has previous understanding about the subject (at least to know how the `if` behaves). To be clear, the shell where the commands were tested is **bash**, the default in Linux systems.
 
 It's perfectly possible to create scripts without a single comparison, several times is not really required. However, through this resource, we can make our script make decisions, be based em something provided by the user or information coming from the computer, as well as to protect the script against possible failures, by returning the best result for our users (which often are ourselves).
 
