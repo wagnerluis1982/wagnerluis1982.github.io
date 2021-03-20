@@ -101,8 +101,7 @@ fi
 > [ -n "$name" ] && [ $value -gt 1000 ] || [ $value -lt 500 ]
 > ```
 >
-> This notation comes with a bonus: you can specify precedence (not possible with `-a` and `-o`).
->
+> This notation comes with a bonus, you can specify precedence of expressions, which is not possible when you use `-a` and `-o`.
 >
 > ```bash
 > # note the last two expressions are composed
