@@ -1,1 +1,6 @@
-public
+# Hugo
+/public/
+/.hugo_build.lock
+
+# VS Code
+/.vscode/
