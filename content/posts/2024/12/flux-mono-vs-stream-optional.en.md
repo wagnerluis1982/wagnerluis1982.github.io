@@ -44,11 +44,17 @@ Optional, also introduced in Java 8, works similar to Stream, with the same func
 
 ## What is common?
 
-1. **Functional programming:**
-2. **Pipeline processing:**
-3. **Lazy evaluation:**
-4. **Intermediate operations:**
-5. **Terminal operations:**
+### Functional programming
+
+The declarative style of functional programming is brought to Java through the usage of these libs. Constructs like `map`, `reduce`, and `filter` enable processing on collections without explicit loops.
+
+Lazy evaluation defer the computation until the results are actually needed, improving performance.
+
+Other functional programming properties are emulated in Java, such as 
+
+### Pipeline processing
+### Intermediate operations
+### Terminal operations
 
 ## What is different?
 
